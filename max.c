@@ -1,4 +1,8 @@
-
+/*------------------------------------------------------
+* Filename: max.c
+* Description: Program to define two integers and print to console the maximum between them.
+* Author: Ori Harel
+-------------------------------------------------------*/
 
 #include <stdio.h>
 
