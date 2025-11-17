@@ -18,9 +18,9 @@ int main() {
     int width_in_mm = 0;
     int weight_in_grams = 0;
     
-    float package_size_in_sqcm = 0.0;
-    float weight_in_kg = 0.0;
-    float price = 0.0;
+    float package_size_in_sqcm = 0.0f;
+    float weight_in_kg = 0.0f;
+    float price = 0.0f;
 
     /*Get package details from user*/
     printf("Enter length, width in mm: \n");
@@ -45,4 +45,5 @@ int main() {
 
 
     return 0;
+
 }
