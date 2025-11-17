@@ -4,13 +4,17 @@
 * Author: Ori Harel
 -------------------------------------------------------*/
 
+#define X_VALUE 4
+#define Y_VALUE 6
+
 #include <stdio.h>
 
 int main() {
-    int x = 4;
-    int y = 6;
+    int x = X_VALUE;
+    int y = Y_VALUE;
     int z = (x < y) * y + (x > y) * x;
     printf("%d", z);
 
     return 0;
+
 }
